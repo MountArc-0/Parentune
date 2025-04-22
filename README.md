@@ -69,8 +69,6 @@ A modular, scalable backend system built using Django and Django REST Framework.
 ---
 
 ## 🗃️ Database Schema
-
-- SQL schema available at: [`schema.sql`](./schema.sql)
 - Uses Django migrations by default
 
 ---
@@ -83,4 +81,4 @@ A modular, scalable backend system built using Django and Django REST Framework.
 ---
 
 ## 📂 Folder Structure
-
+project_root/ │ ├── authentication/ # JWT auth logic ├── profiles/ # User profile data ├── qna/ # Questions, Answers, Tags ├── feed/ # Cached content feed ├── notifications/ # (Planned) ├── analytics/ # (Planned) ├── manage.py └── requirements.txt
